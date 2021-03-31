@@ -1,0 +1,75 @@
+body {
+    margin: 1em 15em;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+p:first-of-type {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    position: relative;
+}
+
+main {
+    width: 60%;
+}
+
+nav {
+    width: 20%;
+    position: absolute;
+    bottom: 2em;
+    right: 15em;
+    border: solid 1px rgb(218, 156, 156);
+    box-shadow: 0 1px 0 0 #4d73bf;;
+    padding: 0.2em;
+    float: right;
+}
+
+li {
+    line-height: 2em;
+}
+
+nav ul li:nth-child(2), li:last-child {
+    list-style-image: url();
+    list-style-position: inside;
+    /* font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; 
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+    */
+  /* Support for all WebKit browsers. */
+  /* -webkit-font-smoothing: antialiased; */
+  /* Support for Safari and Chrome. */
+  /* text-rendering: optimizeLegibility; */
+
+  /* Support for Firefox. */
+  /* -moz-osx-font-smoothing: grayscale; */
+
+  /* Support for IE. */
+  /* font-feature-settings: 'liga'; */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+}
